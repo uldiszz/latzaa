@@ -1,0 +1,17 @@
+doctype html
+html lang=I18n.locale
+  head
+    meta content="IE=edge" http-equiv="X-UA-Compatible"
+    meta charset="utf-8"
+    meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"
+    title LZAA - #{t(current_page.data.title)}
+    / link rel="mask-icon" href=image_path('favicon.svg') color="black"
+    / link rel="icon" href=image_path('favicon-16.png') sizes="16x16" type="image/png"
+    / link rel="icon" href=image_path('favicon-32.png') sizes="32x32" type="image/png"
+    / link rel="preload" type="font/woff" as="font" href=asset_path(:fonts, 'montserrat-regular.woff') crossorigin=true
+    / link rel="preload" type="font/woff" as="font" href=asset_path(:fonts, 'montserrat-light.woff') crossorigin=true
+    link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'
+    = stylesheet_link_tag :site
+  body class=page_classes
+    = yield
+    = javascript_include_tag :all

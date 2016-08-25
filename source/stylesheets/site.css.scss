@@ -1,10 +1,93 @@
 @charset "utf-8";
-@import "normalize";
+
+// Colors
+$black:       #000000;
+$white:       #FFFFFF;
+$blue:        #5eacc9;
+$light-blue:  #bedde9;
+$dark-blue:   #386778;
+$darker-blue: #254450;
+$green:       #52c589;
+$red:         #c65953;
+$orange:      #c88d5a;
+
+$font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Bootstrap variables
+$enable-flex:            true;
+$body-bg:                $blue;
+$body-color:             $white;
+$brand-primary:          $darker-blue;
+$font-family-sans-serif: $font-family;
+$font-size-root:         16px;
+$btn-primary-color:      $white !default;
+$btn-primary-bg:         $dark-blue;
+$btn-primary-border:     $white;
+$link-hover-color:       $white;
+$link-hover-decoration:  none;
+
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// Reset and dependencies
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+
+// Core CSS
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+// @import "bootstrap/tables";
+// @import "bootstrap/forms";
+@import "bootstrap/buttons";
+
+// Components
+// @import "bootstrap/animation";
+@import "bootstrap/dropdown";
+// @import "bootstrap/button-group";
+// @import "bootstrap/input-group";
+// @import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+// @import "bootstrap/navbar";
+// @import "bootstrap/card";
+// @import "bootstrap/breadcrumb";
+// @import "bootstrap/pagination";
+// @import "bootstrap/pager";
+// @import "bootstrap/labels";
+// @import "bootstrap/jumbotron";
+// @import "bootstrap/alert";
+// @import "bootstrap/progress";
+// @import "bootstrap/media";
+// @import "bootstrap/list-group";
+// @import "bootstrap/responsive-embed";
+// @import "bootstrap/close";
+
+// Components w/ JavaScript
+// @import "bootstrap/modal";
+// @import "bootstrap/tooltip";
+// @import "bootstrap/popover";
+// @import "bootstrap/carousel";
+
+// // Utility classes
+// @import "bootstrap/utilities";
+// @import "bootstrap/utilities-background";
+// @import "bootstrap/utilities-spacing";
+// @import "bootstrap/utilities-responsive";
+
+// LZAA
+@import "header.css.scss";
+@import "intro.css.scss";
+@import "about.css.scss";
+@import "members.css.scss";
+@import "contacts.css.scss";
 
 body {
-  background: #ECC561;
+  background: $blue;
   text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $font-family;
   font-size: 1em;
 }
 
@@ -15,7 +98,7 @@ body {
 
 h1 {
   color: rgba(0,0,0,0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $font-family;
   font-size: 1.8em;
   font-weight: 400;
   margin: 0;
@@ -23,7 +106,7 @@ h1 {
 
 .doc {
   margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $font-family;
   font-size: 1.1em;
   font-weight: 300;
 

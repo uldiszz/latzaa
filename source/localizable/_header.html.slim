@@ -1,0 +1,25 @@
+#header
+  .container.fx-from-top-out data-load="toggle(.fx-from-top-in, .fx-from-top-out)"
+    .clearfix
+      .pull-xs-left
+        a href=url_for('/index.html')
+          = image_tag 'logo.png', class: 'logo img-fluid'
+      .pull-xs-right
+        nav
+          ul.nav.nav-inline.main-nav
+            li.nav-item.hidden-md-down
+              a.nav-link href="#{url_for('/about.html')}"
+                = t 'nav.about'
+            li.nav-item.hidden-md-down
+              a.nav-link href="#{url_for('/members.html')}"
+                = t 'nav.members'
+            li.nav-item.hidden-md-down
+              a.nav-link href="#{url_for('/contacts.html')}"
+                = t 'nav.contacts'
+
+            li.nav-item
+              .dropdown
+                = locale.to_s.upcase
+                .dropdown-menu
+                - locales.each do |locale|
+                  = link_to locale.to_s.upcase, "/index.html", locale: locale, class: 'dropdown-item'

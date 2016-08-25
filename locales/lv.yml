@@ -1,0 +1,26 @@
+lv:
+  title: "LZAA"
+  full_title: "Latvijas Zivju Audzētāju Asociācija"
+  nav:
+    about: "Par biedrību"
+    members: "Biedri"
+    contacts: "Kontakti"
+  about:
+    intro:
+      "Biedrība „Latvijas zivju audzētāju asociācija” nodibināta 2006. gada 28. jūnijā, Rīgā.
+      Par biedrības biedru var kļūt jebkura juridiska vai fiziska persona vai tiesībspējīga
+      personālsabiedrība, kura nodarbojas ar zivju audzēšanu. Lēmumu par biedra uzņemšanu
+      biedrībā uz iesnieguma pamata pieņem valde."
+    targets_title: "Biedrības mērķi"
+    targets:
+      "<ul><li>Latvijas zivju audzētāju apvienošana;</li>
+      <li>Labvēlīgas ekonomiskās un politiskās vides izveidošana zivju audzēšanai Latvijā;</li>
+      <li>Zivju audzētāju interešu pārstāvniecība valsts institūcijās un organizācijās. Kā arī nevalstiskajās organizācijās un ārvalstīs;</li>
+      <li>Zivju audzētāju sadarbība ar valsts un ārvalstu institūcijām un organizācijām.</li></ul>"
+    society_board_title: "Biedrības valde"
+    society_board:
+      "<ul><li>Ginta Kalvāne (AS „Nagļi”)</li>
+      <li>Ojārs Daubers (SIA „Oskars”)</li>
+      <li>Arnis Zalcmanis (SIA „Skrunda”)</li>
+      <li>Izpilddirektors: Mārcis Ziņģis</li></ul>"
+    address: "„Skaldas”, Laidu pagasts, Kuldīgas novads, Latvija, LV-3317."
