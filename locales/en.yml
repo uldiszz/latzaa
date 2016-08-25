@@ -1,1 +1,26 @@
 en:
+  title: "LZAA"
+  full_title: ""
+  nav:
+    about: "About LZAA"
+    members: "Members"
+    contacts: "Contacts"
+  about:
+    intro:
+      "About intro  text. Maecenas faucibus mollis interdum. Donec sed odio dui.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam
+      eget risus varius blandit sit amet non magna. Donec sed odio dui. Aenean
+      lacinia bibendum nulla sed consectetur."
+    targets_title: "The aim of the Society"
+    targets:
+      "<ul><li>Target 1;</li>
+      <li>Target 2;</li>
+      <li>Target 3;</li>
+      <li>Target 4</li></ul>"
+    society_board_title: "Society board"
+    society_board:
+      "<ul><li>Ginta Kalvāne (AS „Nagļi”)</li>
+      <li>Ojārs Daubers (SIA „Oskars”)</li>
+      <li>Arnis Zalcmanis (SIA „Skrunda”)</li>
+      <li>Executive director: Mārcis Ziņģis</li></ul>"
+    address: "„Skaldas”, Laidu pagasts, Kuldīgas novads, Latvija, LV-3317."

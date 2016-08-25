@@ -2,7 +2,7 @@ lv:
   title: "LZAA"
   full_title: "Latvijas Zivju Audzētāju Asociācija"
   nav:
-    about: "Par biedrību"
+    about: "Par LZAA"
     members: "Biedri"
     contacts: "Kontakti"
   about:
@@ -24,3 +24,17 @@ lv:
       <li>Arnis Zalcmanis (SIA „Skrunda”)</li>
       <li>Izpilddirektors: Mārcis Ziņģis</li></ul>"
     address: "„Skaldas”, Laidu pagasts, Kuldīgas novads, Latvija, LV-3317."
+    description:
+      "Tikpat kā visa biedrībā „Latvijas zivju audzētāju asociācija” ietilpstošo akvakultūras
+      dzīvnieku audzētavu produkcija tiek audzēta dīķos, kuru kopējā platība ir aptuveni 2918 ha.
+      Biedrības zivju audzētavās tiek nodarbināti 58 patstāvīgie darbinieki un 25 sezonas strādnieki.
+      Galvenā saražotā produkcija ir karpas preču zivju izmērā (>90%). Zivis tiek realizētas dzīvā un
+      svaigā veidā gan pašos zivju audzēšanas uzņēmumos, gan piegādājot tās mazumtirdzniecības un
+      pārstrādes uzņēmumiem.
+      Pamatprodukcijas, dīķa zivju (karpu) galvenā vērtība ir tāda, ka tā ir dabiska produkcija no
+      dabiskas vides apstākļiem. Vairāku zivju audzētavu dīķu teritorijas atrodas Natura 2000 lieguma
+      teritorijā. Zivju audzēšanas dīķu teritorijās ir izveidojies labvēlīgs biotops daudzu putnu un
+      dzīvnieku sugu dzīvošanai. Iegūtā produkcija ir Latvijas izcelsmes veselīgs produkts, kam barošanai
+      tiek izmantota dabiskā barība un graudi, bet mākslīgi ražotu granulēto barību izmanto tikai agrīnās
+      audzēšanas stadijās.
+      Kopējais Latvijā saražotais akvakultūras produkcijas apjoms 2004.-2015.gadā attēlots tabulā Nr1."

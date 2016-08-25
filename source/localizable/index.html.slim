@@ -1,0 +1,22 @@
+---
+title: title
+---
+
+= partial 'header'
+
+#intro
+  .welcome
+    .logo
+      = image_tag "logo.png"
+
+  .container
+    .row
+      = t 'about.intro'
+
+    .row
+      .col-xs-6
+        h2= t 'about.targets_title'
+        = t 'about.targets'
+      .col-xs-6
+        h2= t 'about.society_board_title'
+        = t 'about.society_board'
