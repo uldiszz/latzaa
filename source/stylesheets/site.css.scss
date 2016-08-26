@@ -4,26 +4,27 @@
 $black:       #000000;
 $white:       #FFFFFF;
 $blue:        #5eacc9;
-$light-blue:  #bedde9;
+$light-blue:  #E8F6FD;
 $dark-blue:   #386778;
 $darker-blue: #254450;
 $green:       #52c589;
 $red:         #c65953;
 $orange:      #c88d5a;
+$gray:        #C0C5CE;
 
-$font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family: 'Open Sans', sans-serif;
 
 // Bootstrap variables
 $enable-flex:            true;
 $body-bg:                $light-blue;
-$body-color:             $dark-blue;
+$body-color:             $black;
 $brand-primary:          $darker-blue;
 $font-family-sans-serif: $font-family;
 $font-size-root:         16px;
 $btn-primary-color:      $white !default;
 $btn-primary-bg:         $dark-blue;
 $btn-primary-border:     $white;
-$link-hover-color:       $white;
+$link-hover-color:       $light-blue;
 $link-hover-decoration:  none;
 
 // Core variables and mixins
@@ -92,7 +93,7 @@ body {
 }
 
 h1 {
-  color: $darker-blue;
+  color: $black;
   font-family: $font-family;
   font-size: 40px;
   font-weight: 400;
@@ -100,7 +101,7 @@ h1 {
 }
 
 h2 {
-  color: $darker-blue;
+  color: $black;
   font-family: $font-family;
   font-size: 30px;
   font-weight: 400;
@@ -111,4 +112,9 @@ h2 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.icon {
+  width: 40px;
+  display: inline-block;
 }

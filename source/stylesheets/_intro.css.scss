@@ -2,9 +2,12 @@
   .big-logo {
     text-align: center;
     svg {
-      margin-top: 15%;
+      padding-top: 15%;
       margin-left: auto;
       margin-right: auto;
+    }
+    :hover {
+      cursor: pointer;
     }
   }
 
@@ -20,12 +23,23 @@
     -webkit-animation-duration: .9s;
 
     .about-intro {
-      margin-bottom: 20px;
+      padding-top: 40px;
+      padding-bottom: 50px;
       font-size: 20px;
+      border-bottom: 1px solid transparentize($gray, 0.6);
     }
-
-    .targets, .society-board {
-      margin-top: 10px;
+    .sides {
+      // border-top: 1px solid transparentize($gray, 0.6);
+      margin-top: 20px;
+    }
+    .left-side {
+      border-right: 1px solid transparentize($gray, 0.6);
+    }
+    .right-side {
+      border-left: 1px solid transparentize($white, 0.6);
+    }
+    h2 {
+      padding: 10px 0 30px 0;
     }
   }
 

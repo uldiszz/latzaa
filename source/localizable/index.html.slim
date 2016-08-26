@@ -12,11 +12,17 @@ title: title
     .row.col-xs-12.about-intro
       = t 'about.intro'
 
-    .row
-      .col-sm-5.col-xs-12
-        h2.center= t 'about.targets_title'
-        .tagets= t 'about.targets'
-      .col-sm-2
-      .col-sm-5.col-xs-12
-        h2.center= t 'about.society_board_title'
-        .society-board= t 'about.society_board'
+    .row.sides
+      .col-sm-6.col-xs-12.left-side
+        h2.center
+          .icon= icon 'targets'
+          = t('about.targets_title')
+        .tagets
+          = t 'about.targets'
+
+      .col-sm-6.col-xs-12.right-side
+        h2.center
+          .icon= icon 'board'
+          = t('about.society_board_title')
+        .society-board
+          = t 'about.society_board'
