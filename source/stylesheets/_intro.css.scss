@@ -1,13 +1,17 @@
 #intro
-  .logo img {
-    height: 18.75em;
-    width: 600px;
-    margin-top: 6em;
-    margin-bottom: 6em;
+  .big-logo {
+    text-align: center;
+    svg {
+      margin-top: 6em;
+      margin-bottom: 6em;
+    }
+  }
+
+  .about {
+    display: none;
   }
 
   .welcome {
-    text-align: center;
     -webkit-animation-name: welcome;
     -webkit-animation-duration: .9s;
   }

@@ -2,14 +2,13 @@
 title: title
 ---
 
-= partial 'header'
-
 #intro
-  .welcome
-    .logo
-      = svg "logo"
+  = partial 'header'
 
-  .container
+  .big-logo
+    = svg "logo"
+
+  .container.about.welcome
     .row
       = t 'about.intro'
 
