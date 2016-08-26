@@ -6,16 +6,17 @@ title: title
   = partial 'header'
 
   .big-logo
-    = svg "logo"
+    = svg "logo", class: 'img-fluid'
 
   .container.about.welcome
-    .row
+    .row.col-xs-12.about-intro
       = t 'about.intro'
 
     .row
-      .col-xs-6
-        h2= t 'about.targets_title'
-        = t 'about.targets'
-      .col-xs-6
-        h2= t 'about.society_board_title'
-        = t 'about.society_board'
+      .col-sm-5.col-xs-12
+        h2.center= t 'about.targets_title'
+        .tagets= t 'about.targets'
+      .col-sm-2
+      .col-sm-5.col-xs-12
+        h2.center= t 'about.society_board_title'
+        .society-board= t 'about.society_board'

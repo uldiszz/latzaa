@@ -1,26 +1,50 @@
 #header
   .container.navbar
     .clearfix
-      .pull-xs-left
-        a href=url_for('/index.html')
-          = svg 'logo', class: 'logo img-fluid'
-      .pull-xs-right
-        nav
-          ul.nav.nav-inline.main-nav
-            li.nav-item.hidden-md-down
-              a.nav-link href="#{url_for('/about.html')}" class=(current_page.path == 'about.html' ? 'active' : '')
-                = t('nav.about').upcase
-            li.nav-item.hidden-md-down
-              a.nav-link href="#{url_for('/members.html')}" class=(current_page.path == 'members.html' ? 'active' : '')
-                = t('nav.members').upcase
-            li.nav-item.hidden-md-down
-              a.nav-link href="#{url_for('/contacts.html')}" class=(current_page.path == 'contacts.html' ? 'active' : '')
-                = t('nav.contacts').upcase
+      .hidden-sm-down
+        .pull-xs-left
+          a href=url_for('/index.html')
+            = svg 'logo', class: 'logo img-fluid'
+        .pull-xs-right
+          nav
+            ul.nav.nav-inline.main-nav
+              li.nav-item
+                a.nav-link href="#{url_for('/about.html')}" class=(current_page.path == 'about.html' ? 'active' : '')
+                  = t('nav.about').upcase
+              li.nav-item
+                a.nav-link href="#{url_for('/members.html')}" class=(current_page.path == 'members.html' ? 'active' : '')
+                  = t('nav.members').upcase
+              li.nav-item
+                a.nav-link href="#{url_for('/contacts.html')}" class=(current_page.path == 'contacts.html' ? 'active' : '')
+                  = t('nav.contacts').upcase
+              li.nav-item
+                .dropdown
+                  .dropdown-toggle data-toggle="dropdown"
+                    = locale.to_s.upcase
+                  .dropdown-menu
+                    - locales.each do |locale|
+                      = link_to locale.to_s.upcase, "/index.html", locale: locale, class: 'dropdown-item'
 
-            li.nav-item
-              .dropdown
-                .dropdown-toggle data-toggle="dropdown"
-                  = locale.to_s.upcase
-                .dropdown-menu
-                  - locales.each do |locale|
-                    = link_to locale.to_s.upcase, "/index.html", locale: locale, class: 'dropdown-item'
+      .hidden-md-up
+        .pull-xs-left
+          a href=url_for('/index.html')
+            = svg 'logo', class: 'logo img-fluid'
+        .pull-xs-right
+          nav
+            ul.nav.nav-inline.main-nav
+              li.nav-item
+                a.nav-link href="#{url_for('/about.html')}" class=(current_page.path == 'about.html' ? 'active' : '')
+                  = t('nav.about').upcase
+              li.nav-item
+                a.nav-link href="#{url_for('/members.html')}" class=(current_page.path == 'members.html' ? 'active' : '')
+                  = t('nav.members').upcase
+              li.nav-item
+                a.nav-link href="#{url_for('/contacts.html')}" class=(current_page.path == 'contacts.html' ? 'active' : '')
+                  = t('nav.contacts').upcase
+              li.nav-item
+                .dropdown
+                  .dropdown-toggle data-toggle="dropdown"
+                    = locale.to_s.upcase
+                  .dropdown-menu
+                    - locales.each do |locale|
+                      = link_to locale.to_s.upcase, "/index.html", locale: locale, class: 'dropdown-item'

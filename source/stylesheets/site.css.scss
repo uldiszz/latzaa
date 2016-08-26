@@ -16,7 +16,7 @@ $font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 // Bootstrap variables
 $enable-flex:            true;
 $body-bg:                $light-blue;
-$body-color:             $white;
+$body-color:             $dark-blue;
 $brand-primary:          $darker-blue;
 $font-family-sans-serif: $font-family;
 $font-size-root:         16px;
@@ -109,4 +109,6 @@ h2 {
 
 .center {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }

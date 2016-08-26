@@ -2,18 +2,31 @@
   .big-logo {
     text-align: center;
     svg {
-      margin-top: 6em;
-      margin-bottom: 6em;
+      margin-top: 15%;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
-  .about {
+  #intro > .about {
+    display: none;
+  }
+  #intro > #header {
     display: none;
   }
 
   .welcome {
     -webkit-animation-name: welcome;
     -webkit-animation-duration: .9s;
+
+    .about-intro {
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+
+    .targets, .society-board {
+      margin-top: 10px;
+    }
   }
 
   @-webkit-keyframes welcome {
