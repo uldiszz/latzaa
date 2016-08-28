@@ -1,5 +1,4 @@
-# latzaa
-Latvijas Zivju Audzētāju Asociācija
+# latzaa.lv
 
 ```
 gem install bundler
