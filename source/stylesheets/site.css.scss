@@ -93,7 +93,13 @@ html {
 }
 
 body {
-  background: $light-blue;
+  // background: $light-blue;
+  background: #f2f9fc; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f2f9fc 6%, #e8f6fd 27%, #d9edf2 50%, #e8f6fd 72%, #f2f9fc 94%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #f2f9fc 6%,#e8f6fd 27%,#d9edf2 50%,#e8f6fd 72%,#f2f9fc 94%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #f2f9fc 6%,#e8f6fd 27%,#d9edf2 50%,#e8f6fd 72%,#f2f9fc 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f9fc', endColorstr='#f2f9fc',GradientType=0 ); /* IE6-9 */
+
   text-align: left;
   font-family: $font-family;
   font-size: 1em;
