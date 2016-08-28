@@ -2,7 +2,7 @@
   height: 60px;
   font-size: 14px;
   line-height: 60px;
-  border-top: 1px solid $gray;
+  border-top: 1px solid transparentize($gray, 0.6);
   margin-top: 20px;
   color: darken($gray, 10%);
 }

@@ -97,6 +97,7 @@ body {
   font-family: $font-family;
   font-size: 1em;
   position: relative;
+  height: 100%;
 }
 
 h1 {
@@ -129,6 +130,15 @@ h2 {
 .animate {
   -webkit-animation-name: animate;
   -webkit-animation-duration: .9s;
+}
+
+@mixin calc($property, $expression) {
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
+
+.wrap {
+  @include calc(min-height, "100% - 85px");
 }
 
 @-webkit-keyframes animate {
