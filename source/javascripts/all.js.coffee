@@ -1,20 +1,22 @@
 # Dropdowns
 ( ->
-  for dropdown in document.getElementsByClassName('dropdown')
-    toggler = dropdown.querySelector('[data-toggle="dropdown"]')
-    if toggler
-      toggler.addEventListener "click", (event) ->
-        dropdown.classList.toggle "open"
+  for dropdown in $('.dropdown')
+    $(dropdown.querySelector('[data-toggle="dropdown"]')).on 'click', () ->
+      $('.dropdown-menu').slideToggle()
 )()
 
 # Intro toggle
 ( ->
-  introPage = document.getElementById('intro')
-  if introPage
-    introPage.addEventListener 'click', (event) ->
-      for el in document.getElementsByClassName('about')
-        el.style.display = 'block'
-      document.getElementById('header').style.display = 'block'
-      for el in document.getElementsByClassName('big-logo')
-        el.style.display = 'none'
+  $('#intro').on 'click', () ->
+    $('#header').slideDown()
+    $('.about').slideDown()
+    $('.big-logo').slideUp()
+)()
+
+# Pages
+( ->
+  $(document).on 'ready', () ->
+    $('#about').animate({ opacity: 1 }, 650)
+    $('#members').animate({ opacity: 1 }, 650)
+    $('#contacts').animate({ opacity: 1 }, 650)
 )()

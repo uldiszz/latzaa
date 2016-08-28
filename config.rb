@@ -14,7 +14,7 @@ end
 helpers do
   def url_for(path_or_resource, options={})
     url = super
-    if !path_or_resource == '/index.html' && I18n.default_locale != locale
+    if path_or_resource != '/index.html' && I18n.default_locale != locale
       "/#{locale}#{url}"
     else
       url
