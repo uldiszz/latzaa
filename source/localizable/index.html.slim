@@ -9,22 +9,26 @@ title: title
     = svg "logo", class: 'img-fluid'
 
   .container.about
-    .row.col-xs-12.about-intro
-      = t 'about.intro'
+    .white-container
+      .about-intro
+        .col-xs-12
+          = t 'about.intro'
 
     .row.sides
-      .col-sm-6.col-xs-12.left-side
-        h2.center
-          .icon= icon 'targets'
-          = t('about.targets_title')
-        .tagets
-          = t 'about.targets'
+      .col-sm-6.col-xs-12
+        .white-container
+          h2.center
+            .icon= icon 'targets'
+            = t('about.targets_title')
+          .tagets
+            = t 'about.targets'
 
-      .col-sm-6.col-xs-12.right-side
-        h2.center
-          .icon= icon 'board'
-          = t('about.society_board_title')
-        .society-board
-          = t 'about.society_board'
+      .col-sm-6.col-xs-12
+        .white-container
+          h2.center
+            .icon= icon 'board'
+            = t('about.society_board_title')
+          .society-board
+            = t 'about.society_board'
 
   = partial 'footer'

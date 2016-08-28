@@ -10,7 +10,7 @@
   $('#intro').on 'click', () ->
     $('#header').slideDown()
     $('#footer').slideDown()
-    $('.about').slideDown()
+    $('.about').animate({ opacity: 1 }, 650)
     $('.big-logo').slideUp()
 )()
 

@@ -12,36 +12,26 @@
   }
 
   .about {
-    display: none;
+    opacity: 0;
   }
+
   #header, #footer {
     display: none;
   }
 
-  .container {
-    -webkit-animation: slidein 2.5s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slidein 2.5s forwards;
-    animation-delay: 2s;
+  .about-intro {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
 
-    .about-intro {
-      // padding-top: 40px;
-      padding-bottom: 50px;
-      font-size: 20px;
-      border-bottom: 1px solid transparentize($gray, 0.6);
-    }
-    .sides {
-      // border-top: 1px solid transparentize($gray, 0.6);
-      margin-top: 20px;
-    }
-    .left-side {
-      border-right: 1px solid transparentize($gray, 0.6);
-    }
-    .right-side {
-      border-left: 1px solid transparentize($white, 0.6);
-    }
-    h2 {
-      padding: 10px 0 30px 0;
-    }
+  .sides {
+    margin-top: 20px;
+    height: 100%;
+    line-height: 35px;
+  }
+
+  h2 {
+    padding: 20px 0 23px 0;
   }
 }
