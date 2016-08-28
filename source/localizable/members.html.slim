@@ -4,4 +4,25 @@ title: title
 
 = partial 'header'
 
-#members
+#members.container
+  .row
+    - data.send("members_#{locale}").each_with_index do |member, i|
+      .col-xs-12.col-sm-6.col-md-4
+        .member
+          .title= member.title
+          .about
+            div= member.id
+            div= member.address
+            div= member.location
+            div= member.phone
+            div= member.email
+          .description= member.description
+          .collapse
+            .more
+              = t 'more'
+              = icon 'down-arrow'
+            .less
+              = t 'less'
+              = icon 'up-arrow'
+
+  = partial 'footer' 

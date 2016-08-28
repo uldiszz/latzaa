@@ -1,6 +1,9 @@
 lv:
   title: "LZAA"
   full_title: "Latvijas Zivju Audzētāju Asociācija"
+  more: "Lasīt vairāk"
+  less: "Mazāk"
+  copyrights: "LZAA 2016"
   nav:
     about: "Par LZAA"
     members: "Biedri"

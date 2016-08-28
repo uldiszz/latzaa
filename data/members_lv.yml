@@ -1,7 +1,7 @@
-- title: "Akciju sabiedrība „NAGĻI”"
+- title: "Akciju sabiedrība <br>„NAGĻI”"
   id: "LV40003040664"
   address: "Rīga, Viestura prospekts 2, LV1005"
-  location: "Faktiskā adrese: Rēzeknes novads, Nagļu pagasts, „Nagļi”, LV-4631"
+  location: "<u>Faktiskā adrese:</u> Rēzeknes novads, Nagļu pagasts, „Nagļi”, LV-4631"
   phone: "64662285"
   email: "dzivaskarpas@inbox.lv"
   description:
@@ -13,7 +13,7 @@
     vecumos. Zivju audzētava ir pilna cikla, tiek uzturēts savs vaislas zivju
     ganāmpulks."
 
-- title: "Sabiedrība ar ierobežotu atbildību „OSKARS”"
+- title: "Sabiedrība ar ierobežotu atbildību <br>„OSKARS”"
   id: "LV48702000765"
   address: "Jaunjelgavas novads, Sērenes pagasts, Līči, LV-5123"
   location: ""
@@ -27,7 +27,7 @@
     baltie amūri un platpieri. Zivju audzētava ir pilna cikla, tiek uzturēts savs
     vaislas zivju ganāmpulks karpām, samiem, līdakām, līņiem."
 
-- title: "V. Kancāna individuālais uzņēmums „RIMZĀTI”"
+- title: "V. Kancāna individuālais uzņēmums <br>„RIMZĀTI”"
   id: "LV40002022591"
   address: "Kuldīgas novads, Rendas pagasts, „Krastkalni”, LV-3319"
   location: ""
@@ -40,7 +40,7 @@
     tirdzniecībai zelta ālanti (orfas). Zivju audzētava ir pilna cikla, tiek
     uzturēts savs vaislas zivju ganāmpulks."
 
-- title: "Zemnieku saimniecība „SKALDAS”"
+- title: "Zemnieku saimniecība <br>„SKALDAS”"
   id: "LV56101015241"
   address: "Kuldīgas novads, Laidu pagasts, „Skaldas”, LV-3330"
   location: ""
@@ -53,7 +53,7 @@
     un zandartu mazuļi. Zivju audzētava ir pilna cikla, tiek uzturēts savs
     vaislas zivju ganāmpulks."
 
-- title: "Sabiedrība ar ierobežotu atbildību „SKRUNDA”"
+- title: "Sabiedrība ar ierobežotu atbildību <br>„SKRUNDA”"
   id: "LV46103000821"
   address: "Skrundas novads, Skrundas pagasts, „Zivsaimniecība”"
   location: ""
@@ -65,7 +65,7 @@
     teritorijā. Audzētā produkcija ir karpas (preču zivis). Zivju audzētava ir
     pilna cikla, tiek uzturēts savs vaislas zivju ganāmpulks."
 
-- title: "Zemnieku saimniecība „ŪDENSROZES”"
+- title: "Zemnieku saimniecība <br>„ŪDENSROZES”"
   id: "LV59501015511"
   address: "Pārgaujas novads, Stalbes pagasts, „Ūdensrozes”, LV-4151"
   location: ""
@@ -78,7 +78,7 @@
     Zivju realizācija notiek, tās pārdodot un piedāvājot maksas makšķerēšanas
     pakalpojumus."
 
-- title: "Sabiedrība ar ierobežotu atbildību „W-4”"
+- title: "Sabiedrība ar ierobežotu atbildību <br>„W-4”"
   id: "LV58701001981"
   address: "Jaunjelgavas novads, Seces pagasts, „Silmači”, LV-5124"
   location: ""

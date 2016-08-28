@@ -22,8 +22,9 @@
                   .dropdown-toggle data-toggle="dropdown"
                     = locale.to_s.upcase
                   .dropdown-menu
-                    - locales.each do |locale|
-                      = link_to locale.to_s.upcase, "/index.html", locale: locale, class: 'dropdown-item'
+                    - locales.each do |loc|
+                      - if loc != locale
+                        = link_to loc.to_s.upcase, "/index.html", locale: loc, class: 'dropdown-item'
 
       .hidden-md-up
         .pull-xs-left

@@ -1,6 +1,9 @@
 en:
   title: "LZAA"
   full_title: ""
+  more: "Read more"
+  less: "Less"
+  copyrights: "LZAA 2016"
   nav:
     about: "About LZAA"
     members: "Members"

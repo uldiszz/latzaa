@@ -9,6 +9,7 @@
 ( ->
   $('#intro').on 'click', () ->
     $('#header').slideDown()
+    $('#footer').slideDown()
     $('.about').slideDown()
     $('.big-logo').slideUp()
 )()
@@ -19,4 +20,14 @@
     $('#about').animate({ opacity: 1 }, 650)
     $('#members').animate({ opacity: 1 }, 650)
     $('#contacts').animate({ opacity: 1 }, 650)
+)()
+
+# Members
+( ->
+  $('.collapse').on 'click', (e) ->
+    $parent = $(e.target).parent().parent()
+    $parent.find('.about').slideToggle('fast')
+    $parent.find('.description').slideToggle('fast')
+    $parent.find('.more').toggle()
+    $parent.find('.less').toggle()
 )()

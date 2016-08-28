@@ -53,7 +53,7 @@ $link-hover-decoration:  none;
 // @import "bootstrap/input-group";
 // @import "bootstrap/custom-forms";
 @import "bootstrap/nav";
-// @import "bootstrap/navbar";
+@import "bootstrap/navbar";
 // @import "bootstrap/card";
 // @import "bootstrap/breadcrumb";
 // @import "bootstrap/pagination";
@@ -81,10 +81,15 @@ $link-hover-decoration:  none;
 
 // LZAA
 @import "header.css.scss";
+@import "footer.css.scss";
 @import "intro.css.scss";
 @import "about.css.scss";
 @import "members.css.scss";
 @import "contacts.css.scss";
+
+html {
+  height: 100%;
+}
 
 body {
   background: $light-blue;
