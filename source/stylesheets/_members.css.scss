@@ -10,11 +10,22 @@
     min-height: 250px;
     position: relative;
 
+    .col-xs-2 {
+      max-width: 5px;
+    }
+    a:hover {
+      color: $darker-blue;
+      text-decoration: underline;
+    }
     .title {
       font-weight: bold;
       color: $black;
       text-align: center;
       padding: 5px 0 10px 0;
+    }
+    .icon {
+      width: 15px;
+      padding: 0;
     }
     .description {
       display: none;

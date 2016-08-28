@@ -11,11 +11,21 @@ title: title
         .member
           .title= member.title
           .about
-            div= member.id
-            div= member.address
-            div= member.location
-            div= member.phone
-            div= member.email
+            .row
+              .col-xs-2= icon 'vat', class: 'icon'
+              .col-xs-10= member.id
+            .row
+              .col-xs-2= icon 'location', class: 'icon'
+              .col-xs-10
+                = member.address
+                br
+                = member.location
+            .row
+              .col-xs-2= icon 'phone', class: 'icon'
+              .col-xs-10= "+371 #{member.phone}"
+            .row
+              .col-xs-2= icon 'mail', class: 'icon'
+              .col-xs-10= member.email
           .description= member.description
           .collapse
             .more

@@ -2,8 +2,8 @@
   id: "LV40003040664"
   address: "Rīga, Viestura prospekts 2, LV1005"
   location: "<u>Faktiskā adrese:</u> Rēzeknes novads, Nagļu pagasts, „Nagļi”, LV-4631"
-  phone: "64662285"
-  email: "dzivaskarpas@inbox.lv"
+  phone: "<a href='tel:64662285'>64662285</a>"
+  email: "<a href='mailto:dzivaskarpas@inbox.lv'>dzivaskarpas@inbox.lv</a>"
   description:
     "AS „NAGĻI” ir lielākais gan saražotās produkcijas, gan apsaimniekoto dīķu
     platību ziņā, akvakultūras dzīvnieku audzēšanas uzņēmums biedrībā. Zivju
@@ -17,8 +17,8 @@
   id: "LV48702000765"
   address: "Jaunjelgavas novads, Sērenes pagasts, Līči, LV-5123"
   location: ""
-  phone: "29298933"
-  email: "oskarfish@inbox.lv"
+  phone: "<a href='tel:29298933'>29298933</a>"
+  email: "<a href='mailto:oskarfish@inbox.lv'>oskarfish@inbox.lv</a>"
   description:
     "SIA „OSKARS” akvakultūras dzīvnieku audzēšanas uzņēmumā zivis tiek audzētas
     dīķos, caurplūdes sistēmās un vairākās ūdens recirkulācijas tipa audzēšanas
@@ -31,8 +31,8 @@
   id: "LV40002022591"
   address: "Kuldīgas novads, Rendas pagasts, „Krastkalni”, LV-3319"
   location: ""
-  phone: "29162258"
-  email: "daina.rezonga@inbox.lv"
+  phone: "<a href='tel:29162258'>29162258</a>"
+  email: "<a href='mailto:daina.rezonga@inbox.lv'>daina.rezonga@inbox.lv</a>"
   description:
     "SIA „RIMZĀTI” akvakultūras dzīvnieku audzēšanas uzņēmumā zivis tiek audzētas
     dīķos. Kopējā apsaimniekoto dīķu platība ir 270 ha. Galvenā saražotā
@@ -44,8 +44,8 @@
   id: "LV56101015241"
   address: "Kuldīgas novads, Laidu pagasts, „Skaldas”, LV-3330"
   location: ""
-  phone: "26491943"
-  email: "skaldas@inbox.lv"
+  phone: "<a href='tel:26491943'>26491943</a>"
+  email: "<a href='mailto:skaldas@inbox.lv'>skaldas@inbox.lv</a>"
   description:
     "SIA „SKALDAS” akvakultūras dzīvnieku audzēšanas uzņēmumā zivis tiek audzētas
     dīķos. Kopējā dīķu platība ir 70 ha. Galvenā saražotā produkcija ir karpas
@@ -57,8 +57,8 @@
   id: "LV46103000821"
   address: "Skrundas novads, Skrundas pagasts, „Zivsaimniecība”"
   location: ""
-  phone: "63331124"
-  email: "zivsaimnieciba@apollo.lv"
+  phone: "<a href='tel:63331124'>63331124</a>"
+  email: "<a href='mailto:zivsaimnieciba@apollo.lv'>zivsaimnieciba@apollo.lv</a>"
   description:
     "SIA „SKRUNDA” akvakultūras dzīvnieku audzēšanas uzņēmumā zivis tiek audzētas
     dīķos. Kopējā dīķu platība ir aptuveni 500 ha. Dīķi ietilpst Natura 2000
@@ -69,8 +69,8 @@
   id: "LV59501015511"
   address: "Pārgaujas novads, Stalbes pagasts, „Ūdensrozes”, LV-4151"
   location: ""
-  phone: "26520177"
-  email: "asaka8@inbox.lv"
+  phone: "<a href='tel:26520177'>26520177</a>"
+  email: "<a href='mailto:asaka8@inbox.lv'>asaka8@inbox.lv</a>"
   description:
     "SIA „ŪDENSROZES” akvakultūras dzīvnieku audzēšanas uzņēmumā zivis tiek
     audzētas dīķos. Kopējā saimniecības dīķu platība ir 200 ha. Galvenā saražotā
@@ -82,8 +82,8 @@
   id: "LV58701001981"
   address: "Jaunjelgavas novads, Seces pagasts, „Silmači”, LV-5124"
   location: ""
-  phone: "26415092"
-  email: "w-4@inbox.lv"
+  phone: "<a href='tel:26415092'>26415092</a>"
+  email: "<a href='mailto:w-4@inbox.lv'>w-4@inbox.lv</a>"
   description:
     "SIA „W-4” ir jaunākais biedrības akvakultūras dzīvnieku audzēšanas uzņēmums,
     kas ar zivju audzēšanu nodarbojas no 2007. gada. Uzņēmumā zivis tiek
