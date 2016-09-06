@@ -31,4 +31,10 @@ title: title
         .description-container
           = member.description
       .col-xs-12
-        .pictures-container
+        - if member.picture_count > 0
+          .pictures-container
+            .row
+              - member.picture_count.times do |i|
+                - i += 1
+                .col-xs-12.col-md-6.col-lg-4.picture
+                  = image_tag "members/#{member.url}/#{i}.jpg", class: 'small-image img-fluid'

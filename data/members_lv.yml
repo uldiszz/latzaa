@@ -1,6 +1,5 @@
 - pre_title: "Akciju sabiedrība"
   title: "„NAGĻI”"
-  url: 'nagli'
   id: "LV40003040664"
   address: "Rīga, Viestura prospekts 2, LV1005"
   location: "<u>Faktiskā adrese:</u> Rēzeknes novads, Nagļu pagasts, „Nagļi”, LV-4631"
@@ -14,10 +13,11 @@
     izmērā un pircējiem tiek piedāvāti arī to mazuļi, kā arī līdakas dažādos
     vecumos. Zivju audzētava ir pilna cikla, tiek uzturēts savs vaislas zivju
     ganāmpulks."
+  picture_count: 0
+  url: 'nagli'
 
 - pre_title: "Sabiedrība ar ierobežotu atbildību"
   title: "„OSKARS”"
-  url: 'oskars'
   id: "LV48702000765"
   address: "Jaunjelgavas novads, Sērenes pagasts, Līči, LV-5123"
   location: ""
@@ -30,10 +30,11 @@
     (preču zivis un mazuļi), kā arī foreles, pālijas, stores, sami, līdakas, līņi,
     baltie amūri un platpieri. Zivju audzētava ir pilna cikla, tiek uzturēts savs
     vaislas zivju ganāmpulks karpām, samiem, līdakām, līņiem."
+  picture_count: 0
+  url: 'oskars'
 
 - pre_title: "V. Kancāna individuālais uzņēmums"
   title: "„RIMZĀTI”"
-  url: 'rimzati'
   id: "LV40002022591"
   address: "Kuldīgas novads, Rendas pagasts, „Krastkalni”, LV-3319"
   location: ""
@@ -45,10 +46,11 @@
     produkcija ir karpas (preču zivis), kā arī tiek audzēti un piedāvāti
     tirdzniecībai zelta ālanti (orfas). Zivju audzētava ir pilna cikla, tiek
     uzturēts savs vaislas zivju ganāmpulks."
+  picture_count: 0
+  url: 'rimzati'
 
 - pre_title: "Zemnieku saimniecība"
   title: "„SKALDAS”"
-  url: 'skaldas'
   id: "LV56101015241"
   address: "Kuldīgas novads, Laidu pagasts, „Skaldas”, LV-3330"
   location: ""
@@ -60,39 +62,53 @@
     (preču zivis un mazuļi), kā arī tiek audzēti un tirgoti samu, līdaku, līņu
     un zandartu mazuļi. Zivju audzētava ir pilna cikla, tiek uzturēts savs
     vaislas zivju ganāmpulks."
+  picture_count: 0
+  url: 'skaldas'
 
 - pre_title: "Sabiedrība ar ierobežotu atbildību"
   title: "„SKRUNDA”"
-  url: 'skrunda'
   id: "LV46103000821"
   address: "Skrundas novads, Skrundas pagasts, „Zivsaimniecība”"
   location: ""
-  phone: "<a href='tel:63331124'>63331124</a>"
+  phone: "<a href='tel:63331124'>63331124</a> / <a href='tel:29991848'>29991848</a>"
   email: "<a href='mailto:zivsaimnieciba@apollo.lv'>zivsaimnieciba@apollo.lv</a>"
   description:
     "SIA „SKRUNDA” akvakultūras dzīvnieku audzēšanas uzņēmumā zivis tiek audzētas
     dīķos. Kopējā dīķu platība ir aptuveni 500 ha. Dīķi ietilpst Natura 2000
     teritorijā. Audzētā produkcija ir karpas (preču zivis). Zivju audzētava ir
     pilna cikla, tiek uzturēts savs vaislas zivju ganāmpulks."
+  picture_count: 3
+  url: 'skrunda'
 
 - pre_title: "Zemnieku saimniecība"
   title: "„ŪDENSROZES”"
-  url: 'udensrozes'
   id: "LV59501015511"
   address: "Pārgaujas novads, Stalbes pagasts, „Ūdensrozes”, LV-4151"
   location: ""
   phone: "<a href='tel:26520177'>26520177</a>"
   email: "<a href='mailto:asaka8@inbox.lv'>asaka8@inbox.lv</a>"
+  coordinates: "Koordinātas 57.346524, 25.019566 vai 57°20'47.5'N 25°01'10.4'E"
   description:
     "SIA „ŪDENSROZES” akvakultūras dzīvnieku audzēšanas uzņēmumā zivis tiek
     audzētas dīķos. Kopējā saimniecības dīķu platība ir 200 ha. Galvenā saražotā
     produkcija ir karpas (preču zivis), kā arī tiek audzētas līdakas un karūsas.
-    Zivju realizācija notiek, tās pārdodot un piedāvājot maksas makšķerēšanas
-    pakalpojumus."
+    Zivju realizācija notiek, tās pārdodot un piedāvājot maksas makšķerēšanas pakalpojumus.
+    <br> <br>
+    Atrast mūs var pavisam vienkārši :) Jābrauc pa šoseju Rīga Valmiera un apdzīvotā vietā Straupe,
+    virzienā no Rīgas braucot, labajā pusē ir autoserviss, kur arī ir norāde. Tālāk jābrauc pēc norādes
+    pa zemes ceļu taisni līdz nākamai norādei, pēc kuras arī pavisam drīz kreisajā pusē ieraudzīsiet stāvlaukumu un dīķi.
+    <br> <br>
+    Z/S Ūdensrozes nodarbojās ar zivju audzēšanas pilnu ciklu, no nārsta līdz izaudzēto zivju realizēšanai.
+    Viens no izaudzēto zivju realizēšanas veidiem ir makšķerēšanas pakalpojuma piedāvājums vienā no
+    zivjaudzētavai piederošiem dīķiem - 'Milmēnā'. Šajā dīķī regulāri katru vasaru tiek papildināti
+    zivju krājumi, lai Jūsu copi padarītu aizraujošu un skaistiem lomiem bagātu.
+    Piedāvājam aizraujošu copi skaistā vietā. Lieliska atpūta gan aizrautīgiem
+    makšķerniekiem un trofeju medniekiem, gan ģimenēm."
+  picture_count: 5
+  url: 'udensrozes'
 
 - pre_title: "Sabiedrība ar ierobežotu atbildību"
   title: "„W-4”"
-  url: 'w4'
   id: "LV58701001981"
   address: "Jaunjelgavas novads, Seces pagasts, „Silmači”, LV-5124"
   location: ""
@@ -106,3 +122,5 @@
     kā arī karūsas, līdakas un līņu mazuļi. Zivju audzētava ir pilna cikla, tiek
     uzturēts savs vaislas zivju ganāmpulks. Uzņēmums piedāvā arī maksas
     makšķerēšanas pakalpojumus."
+  picture_count: 0
+  url: 'w4'
