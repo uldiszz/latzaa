@@ -11,38 +11,9 @@ title: title
   .row.members
     - data.send("members_#{locale}").each_with_index do |member, i|
       .col-sm-6.col-md-4.col-lg-3
-        .member-container
-          .number
-            .content= i+1
-          .pre-title= member.pre_title
-          .title= member.title
-
-  .hidden-xs-up.row
-    - data.send("members_#{locale}").each_with_index do |member, i|
-      .col-xs-12.col-sm-6.col-md-4
-        .member
-          .title= member.title
-          .about
-            .row
-              .col-xs-2= icon 'vat', class: 'icon'
-              .col-xs-10= member.id
-            .row
-              .col-xs-2= icon 'location', class: 'icon'
-              .col-xs-10
-                = member.address
-                br
-                = member.location
-            .row
-              .col-xs-2= icon 'phone', class: 'icon'
-              .col-xs-10= "+371 #{member.phone}"
-            .row
-              .col-xs-2= icon 'mail', class: 'icon'
-              .col-xs-10= member.email
-          .description= member.description
-          .collapse
-            .more
-              = t 'more'
-              = icon 'down-arrow'
-            .less
-              = t 'less'
-              = icon 'up-arrow'
+        a href=url_for("/#{member.url}.html")
+          .member-container
+            .number
+              .content= i+1
+            .pre-title= member.pre_title
+            .title= member.title

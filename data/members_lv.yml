@@ -1,5 +1,6 @@
 - pre_title: "Akciju sabiedrība"
   title: "„NAGĻI”"
+  url: 'nagli'
   id: "LV40003040664"
   address: "Rīga, Viestura prospekts 2, LV1005"
   location: "<u>Faktiskā adrese:</u> Rēzeknes novads, Nagļu pagasts, „Nagļi”, LV-4631"
@@ -16,6 +17,7 @@
 
 - pre_title: "Sabiedrība ar ierobežotu atbildību"
   title: "„OSKARS”"
+  url: 'oskars'
   id: "LV48702000765"
   address: "Jaunjelgavas novads, Sērenes pagasts, Līči, LV-5123"
   location: ""
@@ -31,6 +33,7 @@
 
 - pre_title: "V. Kancāna individuālais uzņēmums"
   title: "„RIMZĀTI”"
+  url: 'rimzati'
   id: "LV40002022591"
   address: "Kuldīgas novads, Rendas pagasts, „Krastkalni”, LV-3319"
   location: ""
@@ -45,6 +48,7 @@
 
 - pre_title: "Zemnieku saimniecība"
   title: "„SKALDAS”"
+  url: 'skaldas'
   id: "LV56101015241"
   address: "Kuldīgas novads, Laidu pagasts, „Skaldas”, LV-3330"
   location: ""
@@ -59,6 +63,7 @@
 
 - pre_title: "Sabiedrība ar ierobežotu atbildību"
   title: "„SKRUNDA”"
+  url: 'skrunda'
   id: "LV46103000821"
   address: "Skrundas novads, Skrundas pagasts, „Zivsaimniecība”"
   location: ""
@@ -72,6 +77,7 @@
 
 - pre_title: "Zemnieku saimniecība"
   title: "„ŪDENSROZES”"
+  url: 'udensrozes'
   id: "LV59501015511"
   address: "Pārgaujas novads, Stalbes pagasts, „Ūdensrozes”, LV-4151"
   location: ""
@@ -86,6 +92,7 @@
 
 - pre_title: "Sabiedrība ar ierobežotu atbildību"
   title: "„W-4”"
+  url: 'w4'
   id: "LV58701001981"
   address: "Jaunjelgavas novads, Seces pagasts, „Silmači”, LV-5124"
   location: ""

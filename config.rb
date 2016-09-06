@@ -11,6 +11,10 @@ configure :development do
   activate :livereload
 end
 
+data.members_lv.each do |member|
+  proxy "/#{member.url}.html", "localizable/member_show.html", locals: { member: member }, ignore: true
+end
+
 helpers do
   def url_for(path_or_resource, options={})
     url = super

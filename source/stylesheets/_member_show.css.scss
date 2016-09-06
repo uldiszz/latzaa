@@ -1,0 +1,43 @@
+#member-show {
+  a:hover {
+    color: $darker-blue;
+    text-decoration: underline;
+  }
+  .info-container, .description-container, .pictures-container {
+    margin-top: 20px;
+    background: $white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    min-height: 350px;
+  }
+  .info-container {
+    text-align: center;
+    .pre-title {
+      display: inline-block;
+      font-size: 18px;
+      padding-top: 10px;
+    }
+    .title {
+      display: inline-block;
+      font-size: 20px;
+      padding-left: 10px;
+      padding-bottom: 20px;
+      font-weight: bold;
+    }
+    .about {
+      text-align: left;
+      .row {
+        padding-top: 10px;
+        .col-xs-10 {
+          padding-top: 5px;
+        }
+      }
+    }
+  }
+  .description-container {
+    padding-top: 70px;
+  }
+  .pictures-container {
+    min-height: 150px;
+  }
+}
