@@ -1,55 +1,103 @@
 #members {
   opacity: 0;
-  .member {
-    border-radius: $box-border-radius;
-    margin-top: 20px;
-    padding: 10px;
-    background: $white;
-    color: $darker-blue;
-    min-height: 320px;
+  .map-row {
     position: relative;
-    box-shadow: 2px 2px 8px $gray;
-    line-height: 30px;
-
-    .col-xs-2 {
-      max-width: 5px;
-    }
-    a:hover {
-      color: $darker-blue;
-      text-decoration: underline;
-    }
-    .title {
-      font-weight: bold;
-      color: $black;
-      text-align: center;
-      padding: 5px 0 10px 0;
-    }
-    .icon {
-      width: 15px;
-      padding: 0;
-    }
-    .description {
-      display: none;
-      padding-bottom: 20px;
-    }
-    .collapse {
-      font-size: 12px;
-      font-weight: bold;
-      position: absolute;
-      bottom: 0;
-      left: 43%;
-      padding-bottom: 10px;
-      color: $black;
-      svg {
-        width: 12px;
-        padding-left: 3px;
-      }
-    }
-    .collapse:hover {
-      cursor: pointer;
-    }
-    .less {
-      display: none;
+    height: 500px;
+    .map {
+      width: 100%;
     }
   }
+  @include media-breakpoint-down(xs) {
+    .map-row {
+      height: 300px;
+    }
+  }
+  .members {
+    padding-top: 10px;
+    .member-container {
+      background-color: $white;
+      margin-top: 10px;
+      padding: 5px 5px;
+      border-radius: 5px;
+      text-align: center;
+      height: 110px;
+      border: 1px solid transparent;
+      &:hover {
+        border: 1px solid $black;
+        cursor: pointer;
+      }
+      .number {
+        text-align: left;
+        background: $red;
+        width: 27px;
+        border-radius: 20px;
+        .content {
+          color: $white;
+          padding-left: 8px;
+          font-weight: bold;
+          font-size: 18px;
+        }
+      }
+      .pre-title {
+        font-size: 14px;
+      }
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  // .member {
+  //   border-radius: $box-border-radius;
+  //   margin-top: 20px;
+  //   padding: 10px;
+  //   background: $white;
+  //   color: $darker-blue;
+  //   min-height: 320px;
+  //   position: relative;
+  //   box-shadow: 2px 2px 8px $gray;
+  //   line-height: 30px;
+  //
+  //   .col-xs-2 {
+  //     max-width: 5px;
+  //   }
+  //   a:hover {
+  //     color: $darker-blue;
+  //     text-decoration: underline;
+  //   }
+  //   .title {
+  //     font-weight: bold;
+  //     color: $black;
+  //     text-align: center;
+  //     padding: 5px 0 10px 0;
+  //   }
+  //   .icon {
+  //     width: 15px;
+  //     padding: 0;
+  //   }
+  //   .description {
+  //     display: none;
+  //     padding-bottom: 20px;
+  //   }
+  //   .collapse {
+  //     font-size: 12px;
+  //     font-weight: bold;
+  //     position: absolute;
+  //     bottom: 0;
+  //     left: 43%;
+  //     padding-bottom: 10px;
+  //     color: $black;
+  //     svg {
+  //       width: 12px;
+  //       padding-left: 3px;
+  //     }
+  //   }
+  //   .collapse:hover {
+  //     cursor: pointer;
+  //   }
+  //   .less {
+  //     display: none;
+  //   }
+  // }
 }
