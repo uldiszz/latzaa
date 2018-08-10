@@ -1,8 +1,11 @@
 #about {
   opacity: 0;
   .about {
-    min-height: 500px;
     padding: 20px 0;
     line-height: 30px;
+  }
+  
+  .about-picture {
+    padding-bottom: 50px;
   }
 }

@@ -6,13 +6,28 @@
   phone: "<a href='tel:64662285'>64662285</a>"
   email: "<a href='mailto:dzivaskarpas@inbox.lv'>dzivaskarpas@inbox.lv</a>"
   description:
-    "AS „NAGĻI” ir lielākais gan saražotās produkcijas, gan apsaimniekoto dīķu
-    platību ziņā, akvakultūras dzīvnieku audzēšanas uzņēmums biedrībā. Zivju
-    audzēšana notiek dīķos, to kopējā platība ir aptuveni 1500 ha. Dīķi ietilpst
-    Natura 2000 teritorijā. Galvenā saražotā produkcija ir karpas preču zivju
-    izmērā un pircējiem tiek piedāvāti arī to mazuļi, kā arī līdakas dažādos
-    vecumos. Zivju audzētava ir pilna cikla, tiek uzturēts savs vaislas zivju
-    ganāmpulks."
+    "Pirmo dīķu būvniecība Nagļos tika uzsākta 1965. gadā.  1968. gada 25. jūnijā ar 
+    Latvijas Ministru padomes lēmumu tika nodibināta padomju zivsaimniecība „Nagļi”.
+    </br>
+    </br>
+    Pagājušā gadsimta 70.- 80. gados reizē ar dīķiem tika uzcelts zivju inkubācijas 
+    cehs, mehāniskās darbnīcas, katlu māja, zivju ziemošanas māja.
+    </br>
+    </br>
+    Vairāk kā 40 zivsaimniecības pastāvēšanas gados, vairākkārt mainījies zivsaimniecības 
+    nosaukums. Kopš zivsaimniecību 2000. gadā privatizēja, tā saucas akciju sabiedrība „Nagļi”.
+    </br>
+    </br>
+    Pašlaik akciju sabiedrība „Nagļi” ir lielākā zivju audzētava ne tikai Latvijā, bet visā 
+    Baltijā. Tā ir pilna cikla zivju audzētava, kurai ir pašai savs karpu un līdaku vaislas 
+    materiāls, kur tiek veikta zivju inkubācija, izaudzēti zivju mazuļi, tālāk tirgus zivis.
+    </br>
+    </br>
+    Visi zivsaimniecības dīķi atrodas „Natura 2000” teritorijā. Nagļu zivju dīķi ir viena no 
+    bagātākajām un daudzveidīgākajām ūdensputnu ligzdošanas un migrējošo putnu atpūtas vietām.
+    </br>
+    </br>
+    <a href='https://www.nagluzivis.lv'>www.nagluzivis.lv</a>"
   picture_count: 0
   url: 'nagli'
 
@@ -46,7 +61,7 @@
     produkcija ir karpas (preču zivis), kā arī tiek audzēti un piedāvāti
     tirdzniecībai zelta ālanti (orfas). Zivju audzētava ir pilna cikla, tiek
     uzturēts savs vaislas zivju ganāmpulks."
-  picture_count: 0
+  picture_count: 2
   url: 'rimzati'
 
 - pre_title: "Zemnieku saimniecība"
@@ -57,12 +72,24 @@
   phone: "<a href='tel:26491943'>26491943</a>"
   email: "<a href='mailto:skaldas@inbox.lv'>skaldas@inbox.lv</a>"
   description:
-    "SIA „SKALDAS” akvakultūras dzīvnieku audzēšanas uzņēmumā zivis tiek audzētas
-    dīķos. Kopējā dīķu platība ir 70 ha. Galvenā saražotā produkcija ir karpas
-    (preču zivis un mazuļi), kā arī tiek audzēti un tirgoti samu, līdaku, līņu
-    un zandartu mazuļi. Zivju audzētava ir pilna cikla, tiek uzturēts savs
-    vaislas zivju ganāmpulks."
-  picture_count: 0
+    "Skaldu dīķsaimniecībai ir sena vēsture. Pirmos dīķus ierīkoja Rudes barons.
+    Cara laikos dīķsaimniecība atzīta par labāko Krievijas guberņā. Notika sacensības ar Kazdangas muižas baronu.
+    Pirmās Latvijas brīvvalsts laikā dīķsaimniecību iegūst Roberts Ģelzis. Atzīts par izcilu saimnieku.
+    Roberta Ģelža saimniekošanas prasme un ķēriens izmantota kā prototips „Zvejnieka dēla” Garozam.
+    </br>
+    </br>
+    Šodien Z/S Skaldas pieder Ilgonim Likam, zivkopim ar 32 gadu darba stāžu. 
+    Pašlaik zemnieku saimniecība ”Skaldas” apsaimnieko 36 zivju dīķus, tie ir izvietoti Laidu pagasta teritorijā,
+    kopējā platība ir 69 hektāri. Te kopš baronu laikiem izveidota vesela dīķu sistēma, kura sastāv no ziemošanas,
+    ganību, nārsta dīķiem. Tajos nekad netrūkst ūdens (arī šajā sausajā vasarā?). Visi dīķi ir nolaižami,
+    svaigs ūdens tajos arvien ieplūst no Skaldas upes un avotiem. Zivju audzētava ir pilna cikla, sākot ar
+    zivju nārstu pavasarī līdz preču izmēra zivju pārdošanai rudeņos vai pēc ziemošanas pavasarī.
+    Galvenā saražotā produkcija ir karpas (preču zivis un mazuļi), kā arī tiek audzēti un tirgoti samu,
+    līdaku, līņu un zandartu mazuļi.
+    </br>
+    </br>
+    <a href='https://www.youtube.com/watch?v=-WL2BiwS_YA'>Samu un karpu zvejas video</a>"
+  picture_count: 7
   url: 'skaldas'
 
 - pre_title: "Sabiedrība ar ierobežotu atbildību"
@@ -89,21 +116,29 @@
   email: "<a href='mailto:asaka8@inbox.lv'>asaka8@inbox.lv</a>"
   coordinates: "Koordinātas 57.346524, 25.019566 vai 57°20'47.5'N 25°01'10.4'E"
   description:
-    "SIA „ŪDENSROZES” akvakultūras dzīvnieku audzēšanas uzņēmumā zivis tiek
-    audzētas dīķos. Kopējā saimniecības dīķu platība ir 200 ha. Galvenā saražotā
-    produkcija ir karpas (preču zivis), kā arī tiek audzētas līdakas un karūsas.
-    Zivju realizācija notiek, tās pārdodot un piedāvājot maksas makšķerēšanas pakalpojumus.
-    <br> <br>
-    Atrast mūs var pavisam vienkārši :) Jābrauc pa šoseju Rīga Valmiera un apdzīvotā vietā Straupe,
-    virzienā no Rīgas braucot, labajā pusē ir autoserviss, kur arī ir norāde. Tālāk jābrauc pēc norādes
-    pa zemes ceļu taisni līdz nākamai norādei, pēc kuras arī pavisam drīz kreisajā pusē ieraudzīsiet stāvlaukumu un dīķi.
-    <br> <br>
+    "SIA „ŪDENSROZES” akvakultūras dzīvnieku audzēšanas uzņēmumā zivis tiek audzētas dīķos. 
+    Kopējā saimniecības dīķu platība ir 200 ha. Galvenā saražotā produkcija ir karpas (preču zivis), 
+    kā arī tiek audzētas līdakas un karūsas. Zivju realizācija notiek, tās pārdodot un piedāvājot 
+    maksas makšķerēšanas pakalpojumus.
+    </br>
+    </br>
+    Atrast mūs var pavisam vienkārši :) Jābrauc pa šoseju Rīga Valmiera un apdzīvotā vietā Straupe, 
+    virzienā no Rīgas braucot, labajā pusē ir autoserviss, kur arī ir norāde. Tālāk jābrauc pēc 
+    norādes pa zemes ceļu taisni līdz nākamai norādei, pēc kuras arī pavisam drīz kreisajā pusē ieraudzīsiet stāvlaukumu un dīķi.
+    </br>
+    </br>
     Z/S Ūdensrozes nodarbojās ar zivju audzēšanas pilnu ciklu, no nārsta līdz izaudzēto zivju realizēšanai.
-    Viens no izaudzēto zivju realizēšanas veidiem ir makšķerēšanas pakalpojuma piedāvājums vienā no
-    zivjaudzētavai piederošiem dīķiem - 'Milmēnā'. Šajā dīķī regulāri katru vasaru tiek papildināti
+    </br>
+    </br>
+    Viens no izaudzēto zivju realizēšanas veidiem ir makšķerēšanas pakalpojuma piedāvājums vienā no 
+    zivjaudzētavai piederošiem dīķiem - „Milmēnā”. Šajā dīķī regulāri katru vasaru tiek papildināti 
     zivju krājumi, lai Jūsu copi padarītu aizraujošu un skaistiem lomiem bagātu.
-    Piedāvājam aizraujošu copi skaistā vietā. Lieliska atpūta gan aizrautīgiem
-    makšķerniekiem un trofeju medniekiem, gan ģimenēm."
+    </br>
+    </br>
+    Piedāvājam aizraujošu copi skaistā vietā. Lieliska atpūta gan aizrautīgiem makšķerniekiem un trofeju medniekiem, gan ģimenēm.
+    </br>
+    </br>
+    <a href='www.udensrozes.lv'>www.udensrozes.lv</a>"
   picture_count: 5
   url: 'udensrozes'
 
@@ -122,5 +157,30 @@
     kā arī karūsas, līdakas un līņu mazuļi. Zivju audzētava ir pilna cikla, tiek
     uzturēts savs vaislas zivju ganāmpulks. Uzņēmums piedāvā arī maksas
     makšķerēšanas pakalpojumus."
-  picture_count: 0
+  picture_count: 1
   url: 'w4'
+  
+- pre_title: "Zemnieku saimniecība"
+  title: "”Ērika Rāvas”"
+  id: "LV42101023594"
+  address: "Durbes novads, Durbes pagasts, „Stagari”, LV-3440"
+  location: ""
+  phone: "<a href='tel:29249390'>29249390</a>"
+  email: "<a href='mailto:stagari1@inbox.lv'>stagari1@inbox.lv</a>"
+  description:
+    "Ērika Rāvas ZS akvakultūras dzīvnieku audzēšanas uzņēmumā zivis tiek audzētas dīķos.
+    Kopējā dīķu platība ir aptuveni 70 ha. Audzētā produkcija ir karpas, līdakas, zandarti,
+    karūsas, līņi. Zivju audzētava ir pilna cikla, tiek uzturēts savs vaislas zivju ganāmpulks."
+  picture_count: 0
+  url: 'erikaravas'
+
+- pre_title: "Zemnieku saimniecība"
+  title: "”Zivtiņas”"
+  id: "LV46601000513"
+  address: "Limbažu novads, Katvaru pagasts, „Zivtiņas”, LV-4061"
+  location: ""
+  phone: "<a href='tel:26559605'>26559605</a>"
+  email: "<a href='mailto:zivtinaszs@gmail.com'>zivtinaszs@gmail.com</a>"
+  description: ""
+  picture_count: 0
+  url: 'zivtinas'
