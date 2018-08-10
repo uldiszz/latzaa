@@ -13,7 +13,8 @@ gem 'middleman-sprockets', '~> 4.0.0.rc.1'
 gem 'middleman-livereload'
 gem 'middleman-compass', '>= 4.0.0'
 gem 'slim'
-gem 'nokogiri'
+gem 'nokogiri', '~> 1.8.2'
+gem 'sprockets', '~> 3.7.2'
 
 # Assets
 gem 'bootstrap', '~> 4.0.0.alpha3'

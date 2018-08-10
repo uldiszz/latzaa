@@ -16,6 +16,5 @@ gem install mgd
 mgd
 ```
 
-### Info
 
-Built with Middleman - [Docs](https://middlemanapp.com/basics/install/)
+Built with [Middleman](https://middlemanapp.com/basics/install/)
